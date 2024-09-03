@@ -1,0 +1,115 @@
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    grid-template-rows: repeat(6, auto);
+    width: 60vw;
+    height: 80vh;
+    margin: auto;
+    grid-template-areas: 
+    "therteen therteen nine nine eighteen first first twantey twantey fivteen"
+    "therteen therteen five six six first first elevin third third"
+    "twanteytwo twanteytwo five six six eight eight elevin third third"
+    "seven sixteen sixteen second second nineteen fouteen fouteen twanteyone twanteyone"
+    "twanteyfour twanteyfour seventeen second second fourth fourth twanteythree twanteyone twanteyone"
+    "twanteyfour twanteyfour seventeen twilve twilve fourth fourth twanteythree ten ten"
+    ;
+}
+
+.box{
+    border: 1px dashed gray;
+    text-align: end;
+    align-content: end;
+    padding: 10px ;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.box-1{    grid-area: first;
+}
+.box-2{    grid-area: second ;
+
+}
+.box-3{    grid-area: third;
+
+}
+.box-4{    grid-area: fourth;
+
+}
+.box-5{    grid-area: five;
+
+}
+.box-6{    grid-area: six;
+
+}
+.box-7{    grid-area: seven;
+
+}
+.box-8{    grid-area: eight;
+
+}
+.box-9{    grid-area: nine;
+
+}
+.box-10{    grid-area: ten;
+
+}
+.box-11{    grid-area: elevin;
+
+}
+.box-12{    grid-area: twilve;
+
+}
+.box-13{    grid-area: therteen;
+
+}
+.box-14{    grid-area: fouteen;
+
+}
+.box-15{    grid-area: fivteen;
+
+}
+.box-16{    grid-area: sixteen;
+
+}
+.box-17{    grid-area: seventeen;
+
+}
+.box-18{    grid-area: eighteen;
+
+}
+.box-19{    grid-area: nineteen;
+
+}
+.box-20{    grid-area: twantey;
+
+}
+.box-21{grid-area: twanteyone;
+}
+.box-22{    grid-area: twanteytwo;
+
+}
+.box-23{    grid-area: twanteythree;
+
+}
+.box-24{    grid-area: twanteyfour;
+
+}
+
+.green{
+    background-color:#ccddbb;
+}
+
+.baeg{
+    background-color: #fcf4d0;
+}
+
+.blue{
+    background-color: #c6d8da;
+}
+.darkbeag{
+    background-color:#f7e9a0 ;
+}
+
+.pink{
+    background-color:#f8d9c5 ;
+}
